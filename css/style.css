@@ -51,7 +51,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-transform: uppercase;
-  color: #010201;
+  color: #252525;
 }
 
 /*header section*/
@@ -238,6 +238,10 @@ a:focus {
 /* slider section */
 .slider_section {
   height: calc(100% - 80px);
+  /* position: relative !important;
+  height: auto !important;      
+  min-height: 100vh !important;  
+  margin-top: 200px !important; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

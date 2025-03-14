@@ -116,7 +116,7 @@
         <!-- Left: Logo + Navigation Links -->
         <div class="d-flex align-items-center">
           <a class="navbar-brand me-3" href="#">
-            <img src="images/logo.png" alt="Athleo.ai Logo">
+            <img src="images/logo_3.png" alt="Athleo.ai Logo">
           </a>
           <ul class="navbar-nav d-flex flex-row gap-4 mb-0">
             <li class="nav-item">
@@ -151,7 +151,7 @@
             <!-- Vertical divider -->
             <span style="color: #ccc; font-size: 1.2rem;">|</span>
             <!-- Sign In button remains unchanged (opens modal) -->
-            <button class="btn btn-link text-dark p-0" onclick="toggleSignInModal()">Sign In</button>
+            <a href="https://sportsbuddy.online/" class="btn btn-link text-dark p-0" onclick="toggleSignInModal()">Sign In</a>
             <!-- Get Started button now links directly -->
             <a href="https://sportsbuddy.online/" class="btn btn-primary rounded-button" style="padding: 0.5rem 1rem;">Get Started</a>
           </div>
@@ -282,84 +282,68 @@
     </header>
     <!-- end header section -->
 
-    <!-- NEW INTRO SECTION (What We Do) -->
-    <!-- <section class="intro_section py-5">
-      <div class="container">
-        <h2 class="text-center mb-3">What We Do</h2>
-        <p class="text-center mx-auto" style="max-width: 900px;">
-          For athletes, parents, coaches, and sports media in the youth basketball community, 
-          Athleo.ai transforms raw game footage into high-impact, professional-quality highlights 
-          in minutes with no editing skills required. Our AI-powered tools automate clipping, 
-          tracking, and visual enhancements, making it effortless to showcase talent, analyze plays, 
-          and engage audiences.
-        </p>
-      </div>
-    </section> -->
-    <!-- end intro section -->
-
-    <!-- slider section -->
-    <section class=" slider_section position-relative">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-2 offset-md-2">
-            <div class="slider_heading">
-              <h2>
-                Ath<span>leo</span> AI
-              </h2>
-            </div>
-          </div>
-          <div class="col-md-8 mx-auto">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">01</li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1">02</li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2">03</li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="box">
-                    <div class="detail-box">
-                      <h1>
-                        Auto  <br />
-                        Clipping
-                      </h1>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="box">
-                    <div class="detail-box">
-                      <h1>
-                        Visual <br />
-                        Highlights
-                      </h1>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="box">
-                    <div class="detail-box">
-                      <h1>
-                        Video  <br />
-                        Resume
-                      </h1>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
+   <!-- slider section -->
+<section class="slider_section position-relative">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2 offset-md-2">
+        <div class="slider_heading">
+          <h2>
+            Ath<span>leo</span> AI
+          </h2>
         </div>
       </div>
-
-    </section>
-    <!-- end slider section -->
+      <div class="col-md-8 mx-auto">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">01</li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1">02</li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2">03</li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="box">
+                <div class="detail-box">
+                  <h1>
+                    Automatic  <br />
+                    Clipping
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="box">
+                <div class="detail-box">
+                  <h1>
+                    Media <br />
+                    Library
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="box">
+                <div class="detail-box">
+                  <h1>
+                    Player  <br />
+                    Tracking
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end slider section -->
   </div>
 
   <!-- about section -->
@@ -382,7 +366,7 @@
                   </p>
                   <hr />
                   <a href="">
-                    Power Your Jouney
+                    Power Your Journey
                   </a>
                 </div>
               </div>
@@ -395,31 +379,134 @@
   <!-- end about section -->
   
   
-
-
-  <!-- Community Section -->
+<!-- Community Section -->
 <section 
+  id="community" 
+  class="bg-dark text-light" 
+  style="padding-top: 8rem; padding-bottom: 8rem;"
+>
+  <!-- Narrower container for a centered look -->
+  <div class="container" style="max-width: 1200px;">
+    <div class="text-center mb-5">
+      <!-- Sub-heading -->
+      <h2 class="text-white-50 mb-3" style="font-size: 1.25rem;">
+        Who We Help
+      </h2>
+      <!-- Main heading -->
+      <h3 class="fw-bold text-white" style="font-size: 2.5rem;">
+        Designed for Every Role in Youth Sports
+      </h3>
+    </div>
+
+    <!-- First row: Athletes and Coaches -->
+    <div class="row g-4">
+      <!-- Card 1: Athletes -->
+      <div class="col-lg-6 col-md-6">
+        <div class="bg-white p-4 rounded h-100 text-dark">
+          <div class="d-flex align-items-center mb-3">
+            <img
+              src="https://public.readdy.ai/ai/img_res/0ffa25daa557b52adb6a54b486889f09.jpg"
+              alt="User"
+              class="rounded-circle me-3"
+              style="width: 48px; height: 48px; object-fit: cover;"
+            />
+            <div>
+              <h4 class="fw-bold text-secondary mb-0" style="font-size: 1rem;">Athletes</h4>
+              <small class="text-muted" style="font-size: 0.7rem; font-style: italic;">Play. Clip. Shine.</small>
+            </div>
+          </div>
+          <p class="mb-0" style="font-size: 0.8rem;">
+            "I never had time to edit my game footage. With Athleo.ai, I automatically clip my best moments, add dynamic effects that follow my moves, and create standout videos for recruiting and social. It’s the easiest way to get noticed on and off the court."
+          </p>
+        </div>
+      </div>
+      <!-- Card 2: Coaches -->
+      <div class="col-lg-6 col-md-6">
+        <div class="bg-white p-4 rounded h-100 text-dark">
+          <div class="d-flex align-items-center mb-3">
+            <img
+              src="https://public.readdy.ai/ai/img_res/216855b9db401b623c92e98756181c4f.jpg"
+              alt="User"
+              class="rounded-circle me-3"
+              style="width: 48px; height: 48px; object-fit: cover;"
+            />
+            <div>
+              <h4 class="fw-bold text-secondary mb-0" style="font-size: 1rem;">Coaches</h4>
+              <small class="text-muted" style="font-size: 0.7rem; font-style: italic;">Clip. Teach. Win.</small>
+            </div>
+          </div>
+          <p class="mb-0" style="font-size: 0.8rem;">
+            "I used to spend hours on game breakdowns. Athleo.ai quickly extracts key plays so I can add arrows and spotlights to teach faster. My team learns quicker and we see better results on the court."
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second row: Parents and Media -->
+    <div class="row g-4 mt-4">
+      <!-- Card 3: Parents -->
+      <div class="col-lg-6 col-md-6">
+        <div class="bg-white p-4 rounded h-100 text-dark">
+          <div class="d-flex align-items-center mb-3">
+            <img
+              src="https://public.readdy.ai/ai/img_res/8a7e71cff0ed16d8b9ac2b7ec35c64e8.jpg"
+              alt="User"
+              class="rounded-circle me-3"
+              style="width: 48px; height: 48px; object-fit: cover;"
+            />
+            <div>
+              <h4 class="fw-bold text-secondary mb-0" style="font-size: 1rem;">Parents</h4>
+              <small class="text-muted" style="font-size: 0.7rem; font-style: italic;">Save the Moment. Share the Journey.</small>
+            </div>
+          </div>
+          <p class="mb-0" style="font-size: 0.8rem;">
+            "I wanted to capture my child's biggest milestones but had no editing skills. Athleo.ai clips and organizes highlights in one easy library so I can share memories with family and recruiters. It helps me preserve those precious moments effortlessly."
+          </p>
+        </div>
+      </div>
+      <!-- Card 4: Media -->
+      <div class="col-lg-6 col-md-6">
+        <div class="bg-white p-4 rounded h-100 text-dark">
+          <div class="d-flex align-items-center mb-3">
+            <img
+              src="https://public.readdy.ai/ai/img_res/a815bc4c46e44d55d8b91c2cd2c76df5.jpg"
+              alt="User"
+              class="rounded-circle me-3"
+              style="width: 48px; height: 48px; object-fit: cover;"
+            />
+            <div>
+              <h4 class="fw-bold text-secondary mb-0" style="font-size: 1rem;">Media</h4>
+              <small class="text-muted" style="font-size: 0.7rem; font-style: italic;">Break It Down. Blow It Up.</small>
+            </div>
+          </div>
+          <p class="mb-0" style="font-size: 0.8rem;">
+            "I need fast, engaging reels to grow my audience. Athleo.ai instantly clips top plays and adds dynamic visuals, turning highlights into viral moments. It saves me time while boosting my brand’s impact."
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Community Section v1 -->
+<!-- <section 
 id="community" 
 class="bg-dark text-light" 
-style="padding-top: 6rem; padding-bottom: 6rem;"  <!-- Increase vertical spacing -->
+style="padding-top: 6rem; padding-bottom: 6rem;"  
 >
-<!-- Narrower container for a centered look -->
 <div class="container" style="max-width: 1200px;">
   <div class="text-center mb-5">
-    <!-- Sub-heading -->
     <h2 class="text-white-50 mb-2" style="font-size: 1.25rem;">
       Who We Help
     </h2>
-    <!-- Main heading -->
     <h3 class="fw-bold text-white" style="font-size: 2.5rem;">
       Designed for Every Role in Youth Sports
     </h3>
   </div>
-  <!-- For Bootstrap 5, 'g-4' automatically adds gutters around columns.
-       If you're on Bootstrap 4, use "row" and add "mb-4" to each col. -->
-  <div class="row g-4">
+  <div class="row g-4"> -->
     <!-- Card 1 -->
-    <div class="col-lg-3 col-md-6">
+    <!-- <div class="col-lg-3 col-md-6">
       <div class="bg-white p-4 rounded h-100 text-dark">
         <div class="d-flex align-items-center mb-3">
           <img
@@ -429,18 +516,21 @@ style="padding-top: 6rem; padding-bottom: 6rem;"  <!-- Increase vertical spacing
             style="width: 48px; height: 48px; object-fit: cover;"
           />
           <div>
-            <h4 class="fw-bold text-secondary mb-0" style="font-size: 1.1rem;">Athletes</h4>
-            <small class="text-muted">Rising Stars</small>
+            <h4 class="fw-bold text-secondary mb-0" style="font-size: 1rem;">Athletes</h4>
+            <small class="text-muted" style="font-size: 0.7rem; font-style: italic;">Play. Clip. Shine.</small>
           </div>
         </div>
-        <p class="mb-0" style="font-size: 0.95rem;">
-          "Perfect platform for showcasing skills and building a
-          professional highlight reel for college recruitment."
+        <p class="mb-0" style="font-size: 0.8rem;">
+          "I never had time to edit my game footage. With Athleo.ai, 
+          I automatically clip my best moments, add dynamic effects 
+          that follow my moves, and create standout videos for 
+          recruiting and social. It’s the easiest way to get noticed 
+          on and off the court."
         </p>
       </div>
-    </div>
+    </div> -->
     <!-- Card 2 -->
-    <div class="col-lg-3 col-md-6">
+    <!-- <div class="col-lg-3 col-md-6">
       <div class="bg-white p-4 rounded h-100 text-dark">
         <div class="d-flex align-items-center mb-3">
           <img
@@ -450,18 +540,20 @@ style="padding-top: 6rem; padding-bottom: 6rem;"  <!-- Increase vertical spacing
             style="width: 48px; height: 48px; object-fit: cover;"
           />
           <div>
-            <h4 class="fw-bold text-secondary mb-0" style="font-size: 1.1rem;">Coaches</h4>
-            <small class="text-muted">Team Leaders</small>
+            <h4 class="fw-bold text-secondary mb-0" style="font-size: 1rem;">Coaches</h4>
+            <small class="text-muted" style="font-size: 0.7rem; font-style: italic;">Clip. Teach. Win.</small>
           </div>
         </div>
-        <p class="mb-0" style="font-size: 0.95rem;">
-          "The AI-powered analysis tools help me break down games and
-          improve team strategies efficiently."
+        <p class="mb-0" style="font-size: 0.8rem;">
+          "I used to spend hours on game breakdowns. Athleo.ai quickly 
+          extracts key plays so I can add arrows and spotlights to 
+          teach faster. My team learns quicker and we see better results 
+          on the court."
         </p>
       </div>
-    </div>
+    </div> -->
     <!-- Card 3 -->
-    <div class="col-lg-3 col-md-6">
+    <!-- <div class="col-lg-3 col-md-6">
       <div class="bg-white p-4 rounded h-100 text-dark">
         <div class="d-flex align-items-center mb-3">
           <img
@@ -471,18 +563,21 @@ style="padding-top: 6rem; padding-bottom: 6rem;"  <!-- Increase vertical spacing
             style="width: 48px; height: 48px; object-fit: cover;"
           />
           <div>
-            <h4 class="fw-bold text-secondary mb-0" style="font-size: 1.1rem;">Parents</h4>
-            <small class="text-muted">Proud Supporters</small>
+            <h4 class="fw-bold text-secondary mb-0" style="font-size: 1rem;">Parents</h4>
+            <small class="text-muted" style="font-size: 0.7rem; font-style: italic;">Save Moment. Share Journey.</small>
           </div>
         </div>
-        <p class="mb-0" style="font-size: 0.95rem;">
-          "Love how easy it is to capture and share my child's sports
-          journey while supporting their development."
+        <p class="mb-0" style="font-size: 0.8rem;">
+          "I wanted to capture my child's biggest milestones but 
+          had no editing skills. Athleo.ai clips and organizes 
+          highlights in one easy library so I can share memories 
+          with family and recruiters. It helps me preserve those 
+          precious moments effortlessly."
         </p>
       </div>
-    </div>
+    </div> -->
     <!-- Card 4 -->
-    <div class="col-lg-3 col-md-6">
+    <!-- <div class="col-lg-3 col-md-6">
       <div class="bg-white p-4 rounded h-100 text-dark">
         <div class="d-flex align-items-center mb-3">
           <img
@@ -492,131 +587,246 @@ style="padding-top: 6rem; padding-bottom: 6rem;"  <!-- Increase vertical spacing
             style="width: 48px; height: 48px; object-fit: cover;"
           />
           <div>
-            <h4 class="fw-bold text-secondary mb-0" style="font-size: 1.1rem;">Media</h4>
-            <small class="text-muted">Content Creators</small>
+            <h4 class="fw-bold text-secondary mb-0" style="font-size: 1rem;">Media</h4>
+            <small class="text-muted" style="font-size: 0.7rem; font-style: italic;">Break It Down. Blow It Up.</small>
           </div>
         </div>
-        <p class="mb-0" style="font-size: 0.95rem;">
-          "Creates engaging sports content in seconds. The automated
-          editing features are a game-changer."
+        <p class="mb-0" style="font-size: 0.8rem;">
+          "I need fast, engaging reels to grow my audience. Athleo.ai 
+          instantly clips top plays and adds dynamic visuals, turning 
+          highlights into viral moments. It saves me time while 
+          boosting my brand’s impact."
         </p>
       </div>
     </div>
   </div>
 </div>
-</section>
+</section> -->
 
 <!-- Why Athleo.ai Section -->
-<section id="why-athleo" class="py-5 bg-light" style= "padding: 80px 0;">
-  <div class="container">
-    <div class="text-center mb-5">
+<section id="why-athleo" class="bg-light" style="padding-top: 8rem; padding-bottom: 8rem;">
+  <div class="container" style="max-width: 1200px;">
+    <div class="text-center mb-5" style="margin-bottom: 6rem;">
       <!-- Section headline -->
-      <h2 class="h4 text-secondary mb-3">Why Athleo.ai?</h2>
-      <!-- Section subtext with larger font and bold weight -->
-      <h3 class="h2 font-weight-bold text-dark mb-4">
+      <h2 
+        style="
+          color: #4B5563; 
+          font-size: 1.25rem; 
+          letter-spacing: 0.05rem; 
+          margin-bottom: 1rem;
+        "
+      >
+        Why Athleo.ai?
+      </h2>
+      <!-- Section subtext -->
+      <h3 
+        style="
+          color: #1F2937; 
+          font-size: 2.5rem; 
+          font-weight: 700; 
+          line-height: 1.2; 
+          margin: 0;
+        "
+      >
         More Than an Editing Tool – A Game-Changer for Sports
       </h3>
     </div>
-    <div class="row justify-content-center">
+
+    <!-- Row with 6 cards: 2 rows, 3 columns each on large screens -->
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
       <!-- Card 1 -->
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 border-0 shadow-sm">
-          <div class="card-body text-center">
-            <div class="d-flex align-items-center justify-content-center mb-4">
-              <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 48px; height: 48px;">
-                <i class="ri-team-line" style="font-size: 1.5rem;"></i>
-              </div>
-              <!-- Increase gap between icon and text -->
-              <div class="ms-3 text-start">
-                <h4 class="mb-0 font-weight-bold text-secondary">Community-Driven</h4>
-                <small class="text-muted">Sports Connections</small>
-              </div>
-            </div>
-            <p class="card-text text-muted">
-              A platform where sports connections are made.
-            </p>
+      <div class="col">
+        <div class="bg-white p-4 rounded text-center card-hover h-100">
+          <div 
+            class="mx-auto mb-3 d-flex align-items-center justify-content-center"
+            style="width: 60px; height: 60px; border-radius: 50%; background-color: #FFF5EC;"
+          >
+            <i class="ri-team-line" style="font-size: 1.5rem; color: #F58220;"></i>
           </div>
+          <h4 
+            style="color: #1F2937; font-size: 1.25rem; font-weight: 700; margin-bottom: 0.75rem;"
+          >
+            Community-Driven
+          </h4>
+          <p 
+            style="
+              color: #4B5563; 
+              font-size: 0.875rem; 
+              line-height: 1.5; 
+              margin-bottom: 0; 
+              max-width: 280px; 
+              margin-left: auto; 
+              margin-right: auto;
+            "
+          >
+            A platform where sports connections are made.
+          </p>
         </div>
       </div>
+
       <!-- Card 2 -->
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 border-0 shadow-sm">
-          <div class="card-body text-center">
-            <div class="d-flex align-items-center justify-content-center mb-4">
-              <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 48px; height: 48px;">
-                <i class="ri-focus-3-line" style="font-size: 1.5rem;"></i>
-              </div>
-              <div class="ms-3 text-start">
-                <h4 class="mb-0 font-weight-bold text-secondary">Built for Sports</h4>
-                <small class="text-muted">Tailored Features</small>
-              </div>
-            </div>
-            <p class="card-text text-muted">
-              Tailored AI-powered features designed for athletes.
-            </p>
+      <div class="col">
+        <div class="bg-white p-4 rounded text-center card-hover h-100">
+          <div 
+            class="mx-auto mb-3 d-flex align-items-center justify-content-center"
+            style="width: 60px; height: 60px; border-radius: 50%; background-color: #FFF5EC;"
+          >
+            <i class="ri-focus-3-line" style="font-size: 1.5rem; color: #F58220;"></i>
           </div>
+          <h4 
+            style="color: #1F2937; font-size: 1.25rem; font-weight: 700; margin-bottom: 0.75rem;"
+          >
+            Built for Sports
+          </h4>
+          <p 
+            style="
+              color: #4B5563; 
+              font-size: 0.875rem; 
+              line-height: 1.5; 
+              margin-bottom: 0; 
+              max-width: 280px; 
+              margin-left: auto; 
+              margin-right: auto;
+            "
+          >
+            Tailored AI-powered features designed for athletes.
+          </p>
         </div>
       </div>
+
       <!-- Card 3 -->
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 border-0 shadow-sm">
-          <div class="card-body text-center">
-            <div class="d-flex align-items-center justify-content-center mb-4">
-              <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 48px; height: 48px;">
-                <i class="ri-flashlight-line" style="font-size: 1.5rem;"></i>
-              </div>
-              <div class="ms-3 text-start">
-                <h4 class="mb-0 font-weight-bold text-secondary">Effortless & Intuitive</h4>
-                <small class="text-muted">No Experience Needed</small>
-              </div>
-            </div>
-            <p class="card-text text-muted">
-              Professional-quality content in minutes, no experience needed.
-            </p>
+      <div class="col">
+        <div class="bg-white p-4 rounded text-center card-hover h-100">
+          <div 
+            class="mx-auto mb-3 d-flex align-items-center justify-content-center"
+            style="width: 60px; height: 60px; border-radius: 50%; background-color: #FFF5EC;"
+          >
+            <i class="ri-flashlight-line" style="font-size: 1.5rem; color: #F58220;"></i>
           </div>
+          <h4 
+            style="color: #1F2937; font-size: 1.25rem; font-weight: 700; margin-bottom: 0.75rem;"
+          >
+            Effortless & Intuitive
+          </h4>
+          <p 
+            style="
+              color: #4B5563; 
+              font-size: 0.875rem; 
+              line-height: 1.5; 
+              margin-bottom: 0; 
+              max-width: 280px; 
+              margin-left: auto; 
+              margin-right: auto;
+            "
+          >
+            Professional-quality content in minutes, no experience needed.
+          </p>
         </div>
       </div>
+
       <!-- Card 4 -->
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 border-0 shadow-sm">
-          <div class="card-body text-center">
-            <div class="d-flex align-items-center justify-content-center mb-4">
-              <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 48px; height: 48px;">
-                <i class="ri-line-chart-line" style="font-size: 1.5rem;"></i>
-              </div>
-              <div class="ms-3 text-start">
-                <h4 class="mb-0 font-weight-bold text-secondary">Designed for Growth</h4>
-                <small class="text-muted">Showcase & Track</small>
-              </div>
-            </div>
-            <p class="card-text text-muted">
-              Track progress, showcase talent, and build athletic careers.
-            </p>
+      <div class="col">
+        <div class="bg-white p-4 rounded text-center card-hover h-100">
+          <div 
+            class="mx-auto mb-3 d-flex align-items-center justify-content-center"
+            style="width: 60px; height: 60px; border-radius: 50%; background-color: #FFF5EC;"
+          >
+            <i class="ri-line-chart-line" style="font-size: 1.5rem; color: #F58220;"></i>
           </div>
+          <h4 
+            style="color: #1F2937; font-size: 1.25rem; font-weight: 700; margin-bottom: 0.75rem;"
+          >
+            Designed for Growth
+          </h4>
+          <p 
+            style="
+              color: #4B5563; 
+              font-size: 0.875rem; 
+              line-height: 1.5; 
+              margin-bottom: 0; 
+              max-width: 280px; 
+              margin-left: auto; 
+              margin-right: auto;
+            "
+          >
+            Track progress, showcase talent, and build athletic careers.
+          </p>
         </div>
       </div>
+
       <!-- Card 5 -->
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 border-0 shadow-sm">
-          <div class="card-body text-center">
-            <div class="d-flex align-items-center justify-content-center mb-4">
-              <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 48px; height: 48px;">
-                <i class="ri-brain-line" style="font-size: 1.5rem;"></i>
-              </div>
-              <div class="ms-3 text-start">
-                <h4 class="mb-0 font-weight-bold text-secondary">AI-Powered Innovation</h4>
-                <small class="text-muted">Cutting-Edge Tech</small>
-              </div>
-            </div>
-            <p class="card-text text-muted">
-              Backed by award-winning Harvard research.
-            </p>
+      <div class="col">
+        <div class="bg-white p-4 rounded text-center card-hover h-100">
+          <div 
+            class="mx-auto mb-3 d-flex align-items-center justify-content-center"
+            style="width: 60px; height: 60px; border-radius: 50%; background-color: #FFF5EC;"
+          >
+            <i class="ri-brain-line" style="font-size: 1.5rem; color: #F58220;"></i>
           </div>
+          <h4 
+            style="color: #1F2937; font-size: 1.25rem; font-weight: 700; margin-bottom: 0.75rem;"
+          >
+            AI-Powered Innovation
+          </h4>
+          <p 
+            style="
+              color: #4B5563; 
+              font-size: 0.875rem; 
+              line-height: 1.5; 
+              margin-bottom: 0; 
+              max-width: 280px; 
+              margin-left: auto; 
+              margin-right: auto;
+            "
+          >
+            Backed by award-winning Harvard research.
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col">
+        <div class="bg-white p-4 rounded text-center card-hover h-100">
+          <div 
+            class="mx-auto mb-3 d-flex align-items-center justify-content-center"
+            style="width: 60px; height: 60px; border-radius: 50%; background-color: #FFF5EC;"
+          >
+            <i class="ri-global-line" style="font-size: 1.5rem; color: #F58220;"></i>
+          </div>
+          <h4 
+            style="color: #1F2937; font-size: 1.25rem; font-weight: 700; margin-bottom: 0.75rem;"
+          >
+            Open & Accessible
+          </h4>
+          <p 
+            style="
+              color: #4B5563; 
+              font-size: 0.875rem; 
+              line-height: 1.5; 
+              margin-bottom: 0; 
+              max-width: 280px; 
+              margin-left: auto; 
+              margin-right: auto;
+            "
+          >
+            Making high-quality sports storytelling available to all.
+          </p>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<!-- Hover Shadow Effect -->
+<style>
+  /* Smooth transition for the card shadow on hover */
+  .card-hover {
+    transition: box-shadow 0.3s ease;
+  }
+  .card-hover:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+</style>
 
 
 
@@ -625,7 +835,7 @@ style="padding-top: 6rem; padding-bottom: 6rem;"  <!-- Increase vertical spacing
   id="CTA"
   style="
     background-color: #F58220;
-    padding: 80px 0; /* Increase top/bottom spacing */
+    padding-top: 6rem; padding-bottom: 6rem;
   "
 >
   <div class="container text-center">
@@ -691,6 +901,7 @@ style="padding-top: 6rem; padding-bottom: 6rem;"  <!-- Increase vertical spacing
 </section>
 
 <div style="background-color: #252525;">
+
   <!-- class section -->
   <section class="class_section" style="padding: 80px 0;">
     <div class="container-fluid">
