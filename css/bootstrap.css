@@ -4,7 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -583,6 +583,10 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  background-image: url(../images/b2.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .row {
@@ -10036,3 +10040,4 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
