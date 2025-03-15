@@ -146,7 +146,7 @@
      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
        <div class="d-flex align-items-center gap-3">
         <div class="d-flex align-items-center">
-          <ul class="navbar-nav d-flex flex-row gap-4 mb-0">
+          <ul class="navbar-nav d-flex flex-column gap-4 mb-0">
             <li class="nav-item">
               <a class="nav-link text-dark p-0" href="#features">Features</a>
             </li>
@@ -159,21 +159,26 @@
             <li class="nav-item">
               <a class="nav-link text-dark p-0" href="#why-athleo">Why Athleo.ai</a>
             </li>
+
+            <li class="nav-item d-flex align-items-center gap-3">
+              <a href="#" class="nav-link text-dark p-0" onclick="toggleLanguage()">
+                <i class="ri-global-line"></i>
+                <span class="language-text">EN</span>
+              </a>        
+               <!-- Vertical divider -->
+               <span style="color: #ccc; font-size: 1.2rem;">|</span>
+               <!-- Sign In button remains unchanged (opens modal) -->
+               <a href="https://sportsbuddy.online/" class="nav-link text-dark p-0" onclick="toggleSignInModal()">Sign In</a>
+               <!-- Get Started button (Matches Start Free Trial) -->
+               <a href="https://sportsbuddy.online/" class="btn get-started-btn">
+                 Get Started
+               </a>
+            </li>
           </ul>
         </div>
          <!-- Language button -->
-         <a href="#" class="nav-link text-dark p-0" onclick="toggleLanguage()">
-          <i class="ri-global-line"></i>
-          <span class="language-text">EN</span>
-        </a>        
-         <!-- Vertical divider -->
-         <span style="color: #ccc; font-size: 1.2rem;">|</span>
-         <!-- Sign In button remains unchanged (opens modal) -->
-         <a href="https://sportsbuddy.online/" class="nav-link text-dark p-0" onclick="toggleSignInModal()">Sign In</a>
-         <!-- Get Started button (Matches Start Free Trial) -->
-         <a href="https://sportsbuddy.online/" class="btn get-started-btn">
-           Get Started
-         </a>
+        
+
        </div>
      </div>
    </div>
