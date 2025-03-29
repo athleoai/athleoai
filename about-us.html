@@ -12,7 +12,7 @@
  <meta name="description" content="" />
  <meta name="author" content="" />
 
- <title>About Us | Athleo.ai</title>
+ <title>Company | Athleo.ai</title>
 
  <!-- slider stylesheet -->
  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
@@ -141,44 +141,60 @@
         </button>
    
         <!-- Right: Language, Sign In & Get Started Buttons -->
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-          <div class="d-flex align-items-center gap-3">
-           <div class="d-flex align-items-center">
-             <ul class="navbar-nav d-flex flex-column flex-md-row gap-4 mb-0">
-               <li class="nav-item d-flex align-items-center align-items-left">
-                 <a class="nav-link text-dark p-0" href="index.html#features">Features</a>
-               </li>
-               <li class="nav-item d-flex align-items-center">
-                 <a class="nav-link text-dark p-0" href="index.html#community">Community</a>
-               </li>
-               <li class="nav-item d-flex align-items-center">
-                 <a class="nav-link text-dark p-0" href="index.html#how-it-works">How It Works</a>
-               </li>
-               <li class="nav-item d-flex align-items-center">
-                 <a class="nav-link text-dark p-0" href="index.html#why-athleo">Why Athleo.ai</a>
-               </li>
-               <li class="nav-item d-flex align-items-center">
-                <a class="nav-link text-dark p-0" href="about-us.html">About Us</a>
-              </li>
-               <li class="nav-item d-flex align-items-center">
-                <a class="nav-link text-dark p-0" href="careers.html">Careers</a>
-              </li>
-               <li class="nav-item d-flex align-items-center gap-3">
-                 <a href="#" class="nav-link text-dark p-0" onclick="toggleLanguage()">
-                   <i class="ri-global-line"></i>
-                   <span class="language-text">EN</span>
-                 </a>        
-                  <!-- Vertical divider -->
-                  <span style="color: #ccc; font-size: 1.2rem;">|</span>
-                  <!-- Sign In button remains unchanged (opens modal) -->
-                  <a href="https://sportsbuddy.online/" class="nav-link text-dark p-0" onclick="toggleSignInModal()">Sign In</a>
-                  <!-- Get Started button (Matches Start Free Trial) -->
-                  <a href="https://sportsbuddy.online/" class="btn get-started-btn">
-                    Get Started
-                  </a>
-               </li>
-             </ul>
-           </div>
+     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <div class="d-flex align-items-center gap-3">
+         <div class="d-flex align-items-center">
+           <ul class="navbar-nav d-flex flex-column flex-md-row gap-4 mb-0">
+             <li class="nav-item d-flex align-items-center align-items-left">
+               <a class="nav-link text-dark p-0" href="#features">Features</a>
+             </li>
+             <li class="nav-item d-flex align-items-center">
+               <a class="nav-link text-dark p-0" href="#community">Community</a>
+             </li>
+             <li class="nav-item d-flex align-items-center">
+               <a class="nav-link text-dark p-0" href="#how-it-works">How It Works</a>
+             </li>
+             <li class="nav-item d-flex align-items-center">
+               <a class="nav-link text-dark p-0" href="#why-athleo">Why Athleo.ai</a>
+             </li>
+             <!-- Company Dropdown Start -->
+             <li class="nav-item dropdown d-flex align-items-center position-relative">
+               <a class="nav-link text-dark p-0 d-flex align-items-center" href="#" id="companyDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Company
+                 <i class="ri-arrow-down-s-line ms-1" style="font-size: 1.2rem;"></i>
+               </a>
+               <ul class="dropdown-menu border-0 shadow-sm mt-0"
+                   aria-labelledby="companyDropdown"
+                   style="
+                     padding: 0.75rem 1rem;
+                     min-width: 180px;
+                     left: 50%;
+                     transform: translateX(-35%);
+                     top: 100%;
+                   ">
+                 <li><a class="dropdown-item px-0 py-2 text-dark" href="about-us.html" style="font-size: 0.95rem;">About Us</a></li>
+                 <li><a class="dropdown-item px-0 py-2 text-dark" href="careers.html" style="font-size: 0.95rem;">Careers</a></li>
+                 <li><a class="dropdown-item px-0 py-2 text-dark" href="FAQ.html" style="font-size: 0.95rem;">FAQ</a></li>
+               </ul>
+             </li>
+     
+             <li class="nav-item d-flex align-items-center gap-3">
+               <a href="#" class="nav-link text-dark p-0" onclick="toggleLanguage()">
+                 <i class="ri-global-line"></i>
+                 <span class="language-text">EN</span>
+               </a>        
+                <!-- Vertical divider -->
+                <span style="color: #ccc; font-size: 1.2rem;">|</span>
+                <!-- Sign In button remains unchanged (opens modal) -->
+                <a href="https://sportsbuddy.online/" class="nav-link text-dark p-0" onclick="toggleSignInModal()">Sign In</a>
+                <!-- Get Started button (Matches Start Free Trial) -->
+                <a href="https://sportsbuddy.online/" class="btn get-started-btn">
+                  Get Started
+                </a>
+             </li>
+           </ul>
+         </div>
+         
             <!-- Language button -->
           </div>
         </div>
