@@ -110,158 +110,158 @@
 
 <!-- Header Section Starts -->
 <header class="fixed-top bg-white" style="padding-top: 0.1rem !important; padding-bottom: 0.1rem !important;">
-    <nav class="navbar navbar-expand-lg">
-      <!-- Use container-fluid and force padding to reduce side gaps -->
-      <div class="container-fluid" style="padding-left: 1.5rem !important; padding-right: 1.5rem !important;">
-        <!-- Left: Logo + Navigation Links -->
-        <div class="d-flex align-items-center">
-          <a class="navbar-brand me-3" href="index.html">
-            <img src="images/logo_3.png" alt="Athleo.ai Logo">
-          </a>
-          <!-- <ul class="navbar-nav d-flex flex-row gap-4 mb-0">
-            <li class="nav-item">
-              <a class="nav-link text-dark p-0" href="#features">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark p-0" href="#community">Community</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark p-0" href="#how-it-works">How It Works</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark p-0" href="#why-athleo">Why Athleo.ai</a>
-            </li>
-          </ul> -->
-        </div>
-   
-        <!-- Mobile Toggler -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
-        </button>
-   
-        <!-- Right: Language, Sign In & Get Started Buttons -->
-     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-      <div class="d-flex align-items-center gap-3">
-       <div class="d-flex align-items-center">
-         <ul class="navbar-nav d-flex flex-column flex-md-row gap-4 mb-0">
-           <li class="nav-item d-flex align-items-center align-items-left">
-             <a class="nav-link text-dark p-0" href="#features">Features</a>
-           </li>
-           <li class="nav-item d-flex align-items-center">
-             <a class="nav-link text-dark p-0" href="#community">Community</a>
-           </li>
-           <li class="nav-item d-flex align-items-center">
-             <a class="nav-link text-dark p-0" href="#how-it-works">How It Works</a>
-           </li>
-           <li class="nav-item d-flex align-items-center">
-             <a class="nav-link text-dark p-0" href="#why-athleo">Why Athleo.ai</a>
-           </li>
-           <!-- Company Dropdown Start -->
-           <li class="nav-item dropdown d-flex align-items-center position-relative">
-             <a class="nav-link text-dark p-0 d-flex align-items-center" href="#" id="companyDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               Company
-               <i class="ri-arrow-down-s-line ms-1" style="font-size: 1.2rem;"></i>
-             </a>
-             <ul class="dropdown-menu border-0 shadow-sm mt-0"
-                 aria-labelledby="companyDropdown"
-                 style="
-                   padding: 0.75rem 1rem;
-                   min-width: 180px;
-                   left: 50%;
-                   transform: translateX(-35%);
-                   top: 100%;
-                 ">
-               <li><a class="dropdown-item px-0 py-2 text-dark" href="about-us.html" style="font-size: 0.95rem;">About Us</a></li>
-               <li><a class="dropdown-item px-0 py-2 text-dark" href="careers.html" style="font-size: 0.95rem;">Careers</a></li>
-               <li><a class="dropdown-item px-0 py-2 text-dark" href="FAQ.html" style="font-size: 0.95rem;">FAQ</a></li>
-             </ul>
-           </li>
-   
-           <li class="nav-item d-flex align-items-center gap-3">
-             <a href="#" class="nav-link text-dark p-0" onclick="toggleLanguage()">
-               <i class="ri-global-line"></i>
-               <span class="language-text">EN</span>
-             </a>        
-              <!-- Vertical divider -->
-              <span style="color: #ccc; font-size: 1.2rem;">|</span>
-              <!-- Sign In button remains unchanged (opens modal) -->
-              <a href="https://sportsbuddy.online/" class="nav-link text-dark p-0" onclick="toggleSignInModal()">Sign In</a>
-              <!-- Get Started button (Matches Start Free Trial) -->
-              <a href="https://sportsbuddy.online/" class="btn get-started-btn">
-                Get Started
-              </a>
-           </li>
-         </ul>
-       </div>
-            <!-- Language button -->
-          </div>
-        </div>
+  <nav class="navbar navbar-expand-lg">
+    <!-- Use container-fluid and force padding to reduce side gaps -->
+    <div class="container-fluid" style="padding-left: 1.5rem !important; padding-right: 1.5rem !important;">
+      <!-- Left: Logo + Navigation Links -->
+      <div class="d-flex align-items-center">
+        <a class="navbar-brand me-3" href="index.html">
+          <img src="images/logo_3.png" alt="Athleo.ai Logo">
+        </a>
+        <!-- <ul class="navbar-nav d-flex flex-row gap-4 mb-0">
+          <li class="nav-item">
+            <a class="nav-link text-dark p-0" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark p-0" href="#community">Community</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark p-0" href="#how-it-works">How It Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark p-0" href="#why-athleo">Why Athleo.ai</a>
+          </li>
+        </ul> -->
       </div>
-    </nav>
-   
-    <!-- Sign In Modal remains unchanged -->
-    <div id="signInModal" class="modal fade" tabindex="-1">
-      <div class="modal-dialog modal-dialog-centered modal-custom">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title text-dark">Sign In</h5>
-            <button type="button" class="btn-close" onclick="toggleSignInModal()"></button>
-          </div>
-          <div class="modal-body">
-            <form id="signInForm">
-              <div class="mb-3">
-                <label class="form-label">Email</label>
-                <input type="email" class="form-control rounded-button" required />
-              </div>
-              <div class="mb-3">
-                <label class="form-label">Password</label>
-                <input type="password" class="form-control rounded-button" required />
-              </div>
-              <div class="d-flex justify-content-between align-items-center mb-3">
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="rememberMe" />
-                  <label class="form-check-label" for="rememberMe">Remember me</label>
-                </div>
-                <a href="#" class="text-primary">Forgot password?</a>
-              </div>
-              <button type="submit" class="btn btn-primary w-100 rounded-button">Sign In</button>
-              <div class="text-center mt-3">
-                <small class="text-muted">
-                  Don't have an account?
-                  <a href="https://sportsbuddy.online/" class="text-primary">Sign up</a>
-                </small>
-              </div>
-            </form>
-          </div>
+ 
+      <!-- Mobile Toggler -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+ 
+      <!-- Right: Language, Sign In & Get Started Buttons -->
+   <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+    <div class="d-flex align-items-center gap-3">
+     <div class="d-flex align-items-center">
+       <ul class="navbar-nav d-flex flex-column flex-md-row gap-4 mb-0">
+         <li class="nav-item d-flex align-items-center align-items-left">
+           <a class="nav-link text-dark p-0" href="index.html#Features">Features</a>
+         </li>
+         <li class="nav-item d-flex align-items-center">
+           <a class="nav-link text-dark p-0" href="index.html#community">Community</a>
+         </li>
+         <li class="nav-item d-flex align-items-center">
+           <a class="nav-link text-dark p-0" href="index.html#how-it-works">How It Works</a>
+         </li>
+         <li class="nav-item d-flex align-items-center">
+           <a class="nav-link text-dark p-0" href="index.html#why-athleo">Why Athleo.ai</a>
+         </li>
+         <!-- Company Dropdown Start -->
+         <li class="nav-item dropdown d-flex align-items-center position-relative">
+           <a class="nav-link text-dark p-0 d-flex align-items-center" href="#" id="companyDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Company
+             <i class="ri-arrow-down-s-line ms-1" style="font-size: 1.2rem;"></i>
+           </a>
+           <ul class="dropdown-menu border-0 shadow-sm mt-0"
+               aria-labelledby="companyDropdown"
+               style="
+                 padding: 0.75rem 1rem;
+                 min-width: 180px;
+                 left: 50%;
+                 transform: translateX(-35%);
+                 top: 100%;
+               ">
+             <li><a class="dropdown-item px-0 py-2 text-dark" href="about-us.html" style="font-size: 0.95rem;">About Us</a></li>
+             <li><a class="dropdown-item px-0 py-2 text-dark" href="careers.html" style="font-size: 0.95rem;">Careers</a></li>
+             <li><a class="dropdown-item px-0 py-2 text-dark" href="FAQ.html" style="font-size: 0.95rem;">FAQ</a></li>
+           </ul>
+         </li>
+ 
+         <li class="nav-item d-flex align-items-center gap-3">
+           <a href="#" class="nav-link text-dark p-0" onclick="toggleLanguage()">
+             <i class="ri-global-line"></i>
+             <span class="language-text">EN</span>
+           </a>        
+            <!-- Vertical divider -->
+            <span style="color: #ccc; font-size: 1.2rem;">|</span>
+            <!-- Sign In button remains unchanged (opens modal) -->
+            <a href="https://sportsbuddy.online/" class="nav-link text-dark p-0" onclick="toggleSignInModal()">Sign In</a>
+            <!-- Get Started button (Matches Start Free Trial) -->
+            <a href="AI-clipping-waitlist.html" class="btn get-started-btn">
+              Join Waitlist
+            </a>
+         </li>
+       </ul>
+     </div>
+          <!-- Language button -->
         </div>
       </div>
     </div>
-   </header>
-   
-   <!-- Button Styles -->
-   <style>
-    .btn {
-      border-radius: 8px;
-      padding: 12px 24px;
-      font-weight: 600;
-      text-decoration: none;
-      transition: all 0.3s ease-in-out; /* Smooth transition */
-    }
-   
-    /* Get Started Button - Matches Start Free Trial */
-    .get-started-btn {
-      background-color: #F58220;
-      color: #fff; /* White text */
-      border: none;
-    }
-   
-    /* Hover Effect - Slightly Darker Orange, No Text Color Change */
-    .get-started-btn:hover {
-      background-color: #d96c1a; /* Slightly darker orange */
-      color: #fff; /* Keep text white */
-    }
-   </style>
+  </nav>
+ 
+  <!-- Sign In Modal remains unchanged -->
+  <div id="signInModal" class="modal fade" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-custom">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-dark">Sign In</h5>
+          <button type="button" class="btn-close" onclick="toggleSignInModal()"></button>
+        </div>
+        <div class="modal-body">
+          <form id="signInForm">
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control rounded-button" required />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Password</label>
+              <input type="password" class="form-control rounded-button" required />
+            </div>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="rememberMe" />
+                <label class="form-check-label" for="rememberMe">Remember me</label>
+              </div>
+              <a href="#" class="text-primary">Forgot password?</a>
+            </div>
+            <button type="submit" class="btn btn-primary w-100 rounded-button">Sign In</button>
+            <div class="text-center mt-3">
+              <small class="text-muted">
+                Don't have an account?
+                <a href="https://sportsbuddy.online/" class="text-primary">Sign up</a>
+              </small>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+ </header>
+ 
+ <!-- Button Styles -->
+ <style>
+  .btn {
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+  }
+ 
+  /* Get Started Button - Matches Start Free Trial */
+  .get-started-btn {
+    background-color: #F58220;
+    color: #fff; /* White text */
+    border: none;
+  }
+ 
+  /* Hover Effect - Slightly Darker Orange, No Text Color Change */
+  .get-started-btn:hover {
+    background-color: #d96c1a; /* Slightly darker orange */
+    color: #fff; /* Keep text white */
+  }
+ </style>
 <!-- Header Section Ends -->
 
 <!-- Terms of Use Wrapper Starts -->
